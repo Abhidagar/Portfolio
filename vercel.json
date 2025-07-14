@@ -1,0 +1,17 @@
+{
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_EMAILJS_SERVICE_ID": "service_h15a6jj",
+    "VITE_EMAILJS_TEMPLATE_ID": "template_ex2fpif",
+    "VITE_EMAILJS_PUBLIC_KEY": "Y5dLvO2ThRsGZtng"
+  }
+}
