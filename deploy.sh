@@ -14,17 +14,17 @@ rm -rf dist/
 rm -rf node_modules/.vite/
 
 # Update lockfile to avoid deployment issues
-echo "🔧 Updating lockfile..."
-rm -f pnpm-lock.yaml
-pnpm install
+echo "🔧 Updating dependencies..."
+rm -f package-lock.json
+npm install
 
 # Run linting
 echo "🔍 Running linter..."
-pnpm run lint
+npm run lint
 
 # Build the project
 echo "🏗️  Building project..."
-pnpm run build
+npm run build
 
 if [ $? -eq 0 ]; then
     echo "✅ Build successful!"
