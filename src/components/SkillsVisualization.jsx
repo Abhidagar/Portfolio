@@ -69,7 +69,7 @@ const SkillsVisualization = () => {
             Skills Proficiency
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Technical expertise across DevOps, Cloud, and Full Stack Development
+            Technical expertise across python, DevOps, Cloud, and Full Stack Development
           </p>
         </motion.div>
 

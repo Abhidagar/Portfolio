@@ -26,7 +26,7 @@ const About = () => {
     {
       icon: GraduationCap,
       title: "Academic Excellence",
-      description: "CGPA: 8.650, District Topper in Secondary",
+      description: "CGPA: 8.660, District Topper in Secondary",
       color: "bg-purple-500"
     }
   ]
@@ -34,8 +34,8 @@ const About = () => {
   const skills = [
     { category: "DevOps & Cloud", items: ["Kubernetes", "Docker", "AWS", "CI/CD", "Helm", "Prometheus", "Grafana"] },
     { category: "Programming", items: ["Python", "JavaScript", "C/C++", "SQL", "HTML/CSS"] },
-    { category: "Frameworks", items: ["React", "Next.js", "Bootstrap", "Material Design"] },
-    { category: "Tools & Systems", items: ["Linux", "Git", "JFrog", "SonarQube", "Azure DevOps"] }
+    { category: "Frameworks", items: ["React", "Next.js", "Bootstrap"] },
+    { category: "Tools & Systems", items: ["Linux","Airflow", "Git", "JFrog", "SonarQube", "Azure DevOps"] }
   ]
 
   const containerVariants = {
@@ -80,8 +80,8 @@ const About = () => {
             className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto"
             variants={itemVariants}
           >
-            A passionate DevOps Engineer and Full Stack Developer with a strong foundation in 
-            cloud technologies, automation, and leadership.
+            A passionate Associate Software Engineer and Full Stack Developer with a strong foundation in 
+            Python , Data Engineering, cloud technologies, automation, and leadership.
           </motion.p>
         </motion.div>
 
@@ -104,19 +104,19 @@ const About = () => {
               variants={itemVariants}
             >
               <p>
-                Currently working as a DevOps Engineer at Nagarro Software, I specialize in 
-                building robust CI/CD pipelines, managing Kubernetes clusters, and implementing 
+                Currently working as a Associate Software Engineer at Nagarro Software, I specialize in 
+                Data Engineering , Flask,SQL and building robust CI/CD pipelines, managing Kubernetes clusters, and implementing 
                 cloud-native solutions on AWS.
               </p>
               <p>
                 My academic journey at USICT, GGSIPU, has been marked by excellence with a 
-                CGPA of 8.650. Beyond academics, I've demonstrated leadership as Student Council 
+                CGPA of 8.660. Beyond academics, I've demonstrated leadership as Student Council 
                 President and Sports President, while also achieving national recognition in sports.
               </p>
               <p>
-                I'm passionate about automation, scalable infrastructure, and creating innovative 
+                I'm passionate about automation, development, scalable infrastructure, and creating innovative 
                 solutions that bridge the gap between development and operations. My experience 
-                spans from machine learning projects to enterprise ERP systems.
+                spans from Data Engineering, automation to some in  machine learning projects .
               </p>
             </motion.div>
           </motion.div>

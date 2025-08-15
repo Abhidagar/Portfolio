@@ -6,36 +6,34 @@ import { Building, Calendar, MapPin, ChevronRight } from 'lucide-react'
 const Experience = () => {
   const experiences = [
     {
-      title: "DevOps Engineer",
+      title: "Associate Software Engineer",
       company: "Nagarro Software Private Limited",
       location: "Gurugram, Haryana",
-      period: "Jan 2025 - Present",
+      period: "July 2025 - Present",
       type: "Full-time",
       achievements: [
-        "Built and automated full CI/CD pipeline for Java-based Maven web application using Azure DevOps and GitHub Actions",
-        "Integrated SonarQube for static code analysis and implemented quality gates in CI pipeline",
-        "Created Dockerfile, built Docker images, and deployed containers on AWS EC2 instances",
-        "Provisioned self-hosted Kubernetes cluster using VirtualBox and Ubuntu-based VMs",
-        "Designed and deployed Kubernetes manifests using Deployments, Services, Persistent Volumes, and PVCs",
-        "Created and deployed Helm charts to manage application releases and configurations",
-        "Set up Prometheus-Grafana monitoring stack for Kubernetes cluster metrics and application health"
+        " Assist in maintaining and optimizing ETL pipelines using Python and SQL",
+        " Write scripts to extract data,Transform raw data into clean, structured formats for analysis and reporting.",
+        " Monitor, test, and troubleshoot ETL workflows. maintain documentation of data flow and transformation logic.",
+        " Maintain documentation of data flow and transformation logic."
       ],
-      technologies: ["Kubernetes", "Docker", "AWS EC2", "Azure DevOps", "GitHub Actions", "SonarQube", "JFrog", "Helm", "Prometheus", "Grafana"]
+      technologies: ["Python", "SQL", "ETL", "Data Pipelines", "PowerBI", "Excel", "Pyshark", "Airflow"]
     },
+
     {
-      title: "Software Development Intern",
-      company: "Zerobug",
+      title: "ASE Intern",
+      company: "Nagarro Software Private Limited",
       location: "Gurugram, Haryana", 
-      period: "Dec 2023 - Feb 2024",
+      period: "Jan 2025 - July 2025",
       type: "Internship",
       achievements: [
-        "Collaborated on development of Being Social (Dating App) and Prefil (ERP for Chemical Industry)",
-        "Contributed to error identification and functionality improvements",
-        "Implemented specific features resulting in measurable outcomes and improvements",
-        "Engaged in regular code reviews, providing constructive feedback to peers",
-        "Incorporated feedback received on own code to improve development practices"
+        " Developed using Python and the Flask framework, with SQLite as the database, SQLAlchemy as the ORM, and Flask-Migrate for database migrations. Utilized Jinja2 for server-side templating.",
+        " Built and automated a CI/CD pipeline for a Java Maven web app using Azure DevOps & GitHub Actions, Integrated SonarQube with quality gates for static code analysis.",
+        " Created Dockerfiles, built images, and deployed containers on AWS EC2 via automated CD pipelines",
+        " Provisioned a self-hosted Kubernetes cluster and deployed apps using manifests, Helm charts, and persistent storage.",
+        " Implemented Prometheus-Grafana stack for cluster and application monitoring."
       ],
-      technologies: ["React", "Node.js", "Material Design", "JavaScript", "Git", "Code Review"]
+      technologies: ["Azure DevOps", "Github Actions", "AWS", "CI/CD pipeline", "Kubernetes", "Terraform", "Docker" , "Ansible"]
     }
   ]
 

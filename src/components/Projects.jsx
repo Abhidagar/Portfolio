@@ -10,6 +10,29 @@ const Projects = () => {
   const [selectedFilter, setSelectedFilter] = useState('All')
 
   const projects = [
+
+     {
+      title: "JustEat",
+      description: "Led development of a food ordering website which manages two roles of restaurant owner and customer both manges their task",
+      longDescription: "Food Ordering Website which handles placing order , filtering cuisines and restaurant and smart recommendation for user and many more functionalities ",
+      image: "/api/placeholder/600/400",
+      technologies: ["Flask", "SQLite", "HTML", "CSS", "Javascript", "Jinja Templating"],
+      category: "Full Stack",
+      period: "1 July 2025 - 10 July 20225",
+      company: "Nagarro ",
+      features: [
+        "User Management system with role-based access",
+        "Cart and placing the order and managing the order placed",
+        "Smart recommendation for the Users like mostly ordered item , Today's Special",
+        "Managing the Restaurant and its cuisines from the Owner's side",
+        "Rating and Feedback by the customer on the Order",
+        "Applying filter on items through their names and prize ranges",
+        "Use of migrations for management of database",
+      ],
+      demoLink: "#",
+      githubLink: "https://github.com/Abhidagar/JustEat/tree/main/JustEat/JustEat"
+    },
+
     {
       title: "End-to-End Kubernetes Deployment & Monitoring",
       description: "Comprehensive Kubernetes-based deployment pipeline with automated monitoring and configuration management using Helm charts.",
@@ -20,38 +43,15 @@ const Projects = () => {
       period: "Feb 2025 - May 2025",
       company: "Nagarro",
       features: [
-        "Self-hosted Kubernetes cluster using VirtualBox and CentOS VMs",
-        "Kubernetes manifests with Deployments, Services, PVs, and PVCs",
-        "Helm charts for application release management",
-        "Prometheus-Grafana monitoring stack for cluster metrics",
-        "Automated CI/CD pipeline with Docker image creation",
-        "Helm-based deployment automation on Kubernetes"
+        " Provisioned a self-hosted Kubernetes cluster using VirtualBox and CentOs-based VMs.Designed and deployed Kubernetes manifests using Deployments, Services, Persistent Volumes, and PVCs.",
+        " Implemented a full CI/CD pipeline to automate build, test, Docker image creation, and Helm-based deployment on Kubenetes/",
+        "Set up a Prometheus-Grafana monitoring stack to monitor Kubernetes cluster metrics and application.",
+        "Developed a Monitoring Pipeline to automate the deployment and configuration of Prometheus and Grafana using Helm.",
       ],
       demoLink: "#",
       githubLink: "#"
     },
-    {
-      title: "Prefil - Chemical Industry ERP",
-      description: "Tailored ERP system for chemical industry with supply chain integration, daily tracking, and Material 3 Design implementation.",
-      longDescription: "Led development of a comprehensive ERP solution specifically designed for the chemical industry, featuring seamless supply chain integration and precise daily tracking capabilities.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "Material Design 3", "Node.js", "Database Management", "Supply Chain", "Analytics"],
-      category: "Full Stack",
-      period: "Nov 2023 - Feb 2024",
-      company: "Zerobug",
-      features: [
-        "User Management system with role-based access",
-        "Daily tracking of price and stock fluctuations",
-        "Raw and finished grades tracking system",
-        "Bill of Material (BOM) management",
-        "Certificates of Analysis (COA) handling",
-        "Daily Production Plan optimization",
-        "IP Lock security features",
-        "Material 3 Design implementation"
-      ],
-      demoLink: "#",
-      githubLink: "#"
-    },
+    
     {
       title: "Movie Recommender System",
       description: "Machine learning-powered movie recommendation engine using cosine similarity and vector analysis for personalized suggestions.",
@@ -124,7 +124,7 @@ const Projects = () => {
             className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
             variants={itemVariants}
           >
-            Showcasing innovative solutions across DevOps, Full Stack Development, and Machine Learning
+            Showcasing innovative solutions across Python, SQL, Data Analysis and Engineering, DevOps, Full Stack Development, and Machine Learning
           </motion.p>
         </motion.div>
 

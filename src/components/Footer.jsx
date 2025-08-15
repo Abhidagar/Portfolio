@@ -54,7 +54,7 @@ const Footer = () => {
               Abhishek Dagar
             </h3>
             <p className="text-gray-400">
-              DevOps Engineer & Full Stack Developer
+              Associate Software Engineer & Full Stack Developer
             </p>
           </motion.div>
 

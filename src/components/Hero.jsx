@@ -7,9 +7,8 @@ import { Github, Linkedin, Mail, Download, ChevronDown } from 'lucide-react'
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0)
   const roles = [
-    "DevOps Engineer",
-    "Full Stack Developer", 
-    "Cloud Architect",
+    "Associate Software Engineer",
+    "Full Stack Developer", ,
     "Problem Solver"
   ]
 
@@ -145,7 +144,7 @@ const Hero = () => {
           className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4"
           variants={itemVariants}
         >
-          Passionate about building scalable infrastructure, automating deployments, 
+          Passionate about building Data analysis, Engineering, scalable infrastructure, automating deployments, 
           and creating innovative solutions. Currently working at Nagarro, specializing 
           in CI/CD pipelines, Kubernetes, and cloud technologies.
         </motion.p>
