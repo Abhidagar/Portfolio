@@ -80,8 +80,8 @@ const About = () => {
             className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto"
             variants={itemVariants}
           >
-            A passionate Associate Software Engineer and Full Stack Developer with a strong foundation in 
-            Python , Data Engineering, cloud technologies, automation, and leadership.
+            A passionate Associate Software Engineer and with a strong foundation in 
+            Python, Data Engineering, cloud technologies, automation, and leadership.
           </motion.p>
         </motion.div>
 
@@ -105,7 +105,7 @@ const About = () => {
             >
               <p>
                 Currently working as a Associate Software Engineer at Nagarro Software, I specialize in 
-                Data Engineering , Flask,SQL and building robust CI/CD pipelines, managing Kubernetes clusters, and implementing 
+                Data Engineering , Flask, SQL and building robust CI/CD pipelines, managing Kubernetes clusters, and implementing 
                 cloud-native solutions on AWS.
               </p>
               <p>
