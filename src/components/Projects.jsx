@@ -10,73 +10,88 @@ const Projects = () => {
   const [selectedFilter, setSelectedFilter] = useState('All')
 
   const projects = [
-
-     {
-      title: "JustEat",
-      description: "Led development of a food ordering website which manages two roles of restaurant owner and customer both manges their task",
-      longDescription: "Food Ordering Website which handles placing order , filtering cuisines and restaurant and smart recommendation for user and many more functionalities ",
-      image: "/api/placeholder/600/400",
-      technologies: ["Flask", "SQLite", "HTML", "CSS", "Javascript", "Jinja Templating"],
-      category: "Full Stack",
-      period: "1 July 2025 - 10 July 20225",
-      company: "Nagarro ",
-      features: [
-        "User Management system with role-based access",
-        "Cart and placing the order and managing the order placed",
-        "Smart recommendation for the Users like mostly ordered item , Today's Special",
-        "Managing the Restaurant and its cuisines from the Owner's side",
-        "Rating and Feedback by the customer on the Order",
-        "Applying filter on items through their names and prize ranges",
-        "Use of migrations for management of database",
-      ],
-      demoLink: "#",
-      githubLink: "https://github.com/Abhidagar/JustEat/tree/main/JustEat/JustEat"
-    },
-
     {
-      title: "End-to-End Kubernetes Deployment & Monitoring",
-      description: "Comprehensive Kubernetes-based deployment pipeline with automated monitoring and configuration management using Helm charts.",
-      longDescription: "Built a complete DevOps solution featuring self-hosted Kubernetes cluster provisioning, automated CI/CD pipelines, and comprehensive monitoring stack. The project demonstrates enterprise-level infrastructure management and deployment automation.",
+      title: "Enterprise Data Quality Framework (Johnson & Johnson)",
+      description: "Scalable data validation framework for processing highly unstructured enterprise datasets.",
+      longDescription: "Designed and implemented a comprehensive Data Quality Framework for Johnson & Johnson using Kedro ETL pipelines to ingest data from SharePoint and Amazon Redshift into Amazon S3.",
       image: "/api/placeholder/600/400",
-      technologies: ["Kubernetes", "Helm", "Prometheus", "Grafana", "Docker", "CI/CD", "VirtualBox", "CentOS"],
-      category: "DevOps",
-      period: "Feb 2025 - May 2025",
+      technologies: ["Kedro", "Python", "SQL", "Amazon S3", "Redshift", "SharePoint"],
+      category: "Data Engineering",
+      period: "Mar 2026 - Jun 2026",
       company: "Nagarro",
       features: [
-        " Provisioned a self-hosted Kubernetes cluster using VirtualBox and CentOs-based VMs.Designed and deployed Kubernetes manifests using Deployments, Services, Persistent Volumes, and PVCs.",
-        " Implemented a full CI/CD pipeline to automate build, test, Docker image creation, and Helm-based deployment on Kubenetes/",
-        "Set up a Prometheus-Grafana monitoring stack to monitor Kubernetes cluster metrics and application.",
-        "Developed a Monitoring Pipeline to automate the deployment and configuration of Prometheus and Grafana using Helm.",
+        "Developed end-to-end Kedro ETL pipelines for data ingestion and processing",
+        "Automated schema, null, duplicate, datatype, and cross-dataset validation with configurable rules",
+        "Built modular pipeline orchestration with centralized logging and exception handling",
+        "Improved data consistency and reduced manual validation effort",
+        "Enhanced pipeline reliability and maintainability"
       ],
       demoLink: "#",
       githubLink: "#"
     },
-    
+    {
+      title: "End-to-End Kubernetes Deployment & Monitoring",
+      description: "Production-ready CI/CD pipeline with full Kubernetes orchestration and observability.",
+      longDescription: "Architected and deployed a complete production infrastructure with automated CI/CD pipelines, Kubernetes cluster management, and comprehensive monitoring using Prometheus and Grafana.",
+      image: "/api/placeholder/600/400",
+      technologies: ["Kubernetes", "Helm", "Prometheus", "Grafana", "Docker", "CI/CD", "Terraform"],
+      category: "DevOps",
+      period: "Feb 2025 - May 2025",
+      company: "Nagarro",
+      features: [
+        "Designed and deployed full CI/CD pipeline with automated build, test, and deployment",
+        "Architected Kubernetes resources including Deployments, Services, PV/PVC, ConfigMaps, and Secrets",
+        "Set up centralized monitoring using Prometheus and Grafana for real-time observability",
+        "Automated provisioning of monitoring stack using Helm for reproducible deployments",
+        "Reduced release effort and manual intervention by 50%"
+      ],
+      demoLink: "#",
+      githubLink: "#"
+    },
+    {
+      title: "JustEat",
+      description: "Food ordering platform with separate customer and restaurant owner workflows.",
+      longDescription: "A Flask-based food ordering website that supports order placement, cuisine and restaurant filtering, and personalized recommendations for users.",
+      image: "/api/placeholder/600/400",
+      technologies: ["Flask", "SQLite", "HTML", "CSS", "JavaScript", "Jinja Templating"],
+      category: "Full Stack",
+      period: "July 2025",
+      company: "Nagarro",
+      features: [
+        "Role-based access for customers and restaurant owners",
+        "Cart, order placement, and order management",
+        "Smart recommendations such as most-ordered items and today's special",
+        "Restaurant and cuisine management from the owner's side",
+        "Customer ratings and feedback on orders",
+        "Filtering by item name and price range",
+        "Database migrations for schema management"
+      ],
+      demoLink: "#",
+      githubLink: "https://github.com/Abhidagar/JustEat/tree/main/JustEat/JustEat"
+    },
     {
       title: "Movie Recommender System",
-      description: "Machine learning-powered movie recommendation engine using cosine similarity and vector analysis for personalized suggestions.",
-      longDescription: "Engineered an intelligent movie recommendation system that processes a dataset of 5000 movies, extracting essential features and converting them into vectors for accurate similarity calculations.",
+      description: "Machine learning-based movie recommendation engine using cosine similarity.",
+      longDescription: "An intelligent movie recommendation system that processes a dataset of 5000 movies, extracts features, and uses vector similarity for personalized suggestions.",
       image: "/api/placeholder/600/400",
-      technologies: ["Python", "Machine Learning", "Scikit-learn", "Pandas", "NumPy", "Cosine Similarity", "Data Processing"],
+      technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Cosine Similarity", "Data Processing"],
       category: "Machine Learning",
       period: "Aug 2023 - Sept 2023",
       company: "Personal Project",
       features: [
-        "Dataset processing of 5000+ movies",
-        "Feature extraction and tag generation",
-        "Vector transformation for similarity analysis",
-        "Cosine distance calculations for accuracy",
-        "Personalized movie suggestions algorithm",
-        "User experience optimization",
-        "Scikit-learn implementation",
-        "Real-time recommendation engine"
+        "Dataset processing of 5000+ movies with feature extraction",
+        "Tag generation and vector transformation for similarity analysis",
+        "Cosine distance calculations for accuracy and personalization",
+        "Real-time recommendation engine with efficient computation",
+        "User experience optimization for exploration",
+        "Scikit-learn implementation for ML pipeline"
       ],
       demoLink: "#",
       githubLink: "#"
     }
   ]
 
-  const categories = ['All', 'DevOps', 'Full Stack', 'Machine Learning']
+  const categories = ['All', 'Data Engineering', 'DevOps', 'Full Stack', 'Machine Learning']
 
   const filteredProjects = selectedFilter === 'All' 
     ? projects 

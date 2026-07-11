@@ -9,31 +9,32 @@ const Experience = () => {
       title: "Associate Software Engineer",
       company: "Nagarro Software Private Limited",
       location: "Gurugram, Haryana",
-      period: "July 2025 - Present",
+      period: "Jan 2025 - Present",
       type: "Full-time",
       achievements: [
-        " Assist in maintaining and optimizing ETL pipelines using Python and SQL",
-        " Write scripts to extract data,Transform raw data into clean, structured formats for analysis and reporting.",
-        " Monitor, test, and troubleshoot ETL workflows. maintain documentation of data flow and transformation logic.",
-        " Maintain documentation of data flow and transformation logic."
+        "Developed end-to-end ETL pipelines using Python, SQL, Kedro, Amazon S3, and Redshift for automated processing of enterprise data.",
+        "Designed and implemented a scalable Data Quality Framework for Johnson & Johnson (JnJ), processing highly unstructured datasets using reusable validation modules.",
+        "Developed backend automation solutions using Python, SQL, and Snowflake to streamline reporting workflows, reducing manual operational effort by 90%.",
+        "Integrated Airflow and Azkaban workflows with ServiceNow for automated incident generation and monitoring during pipeline failures.",
+        "Built internal reporting and analytics solutions using Power BI and Tableau, enabling faster business decision-making.",
+        "Implemented CI/CD and deployment automation practices using Azure DevOps, GitHub Actions, Docker, and Kubernetes."
       ],
-      technologies: ["Python", "SQL", "ETL", "Data Pipelines", "PowerBI", "Excel", "Pyshark", "Airflow"]
+      technologies: ["Python", "SQL", "Kedro", "Amazon S3", "Snowflake", "Redshift", "Airflow", "Azkaban", "Power BI", "Tableau", "Azure DevOps"]
     },
 
     {
-      title: "ASE Intern",
+      title: "Intern - Associate Software Engineer",
       company: "Nagarro Software Private Limited",
       location: "Gurugram, Haryana", 
-      period: "Jan 2025 - July 2025",
+      period: "Feb 2025 - May 2025",
       type: "Internship",
       achievements: [
-        " Developed using Python and the Flask framework, with SQLite as the database, SQLAlchemy as the ORM, and Flask-Migrate for database migrations. Utilized Jinja2 for server-side templating.",
-        " Built and automated a CI/CD pipeline for a Java Maven web app using Azure DevOps & GitHub Actions, Integrated SonarQube with quality gates for static code analysis.",
-        " Created Dockerfiles, built images, and deployed containers on AWS EC2 via automated CD pipelines",
-        " Provisioned a self-hosted Kubernetes cluster and deployed apps using manifests, Helm charts, and persistent storage.",
-        " Implemented Prometheus-Grafana stack for cluster and application monitoring."
+        "Designed and deployed a full CI/CD pipeline to automate build, test, Docker image creation, and Helm-based deployments.",
+        "Architected and implemented Kubernetes resources including Deployments, Services, PV/PVC, ConfigMaps, and Secrets.",
+        "Set up a centralized monitoring stack using Prometheus for metrics scraping and Grafana for visualization.",
+        "Automated provisioning of the complete monitoring stack using Helm, ensuring fully reproducible infra deployments across environments."
       ],
-      technologies: ["Azure DevOps", "Github Actions", "AWS", "CI/CD pipeline", "Kubernetes", "Terraform", "Docker" , "Ansible"]
+      technologies: ["CI/CD", "Docker", "Kubernetes", "Helm", "Prometheus", "Grafana", "Azure DevOps", "GitHub Actions", "Terraform"]
     }
   ]
 

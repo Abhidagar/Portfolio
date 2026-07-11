@@ -90,7 +90,7 @@ const Contact = () => {
             Get In Touch
           </motion.h2>
           <motion.p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto" variants={itemVariants}>
-            Ready to collaborate on your next project? Let's discuss how we can work together to build something amazing.
+            Open to discussions around data engineering, full-stack development, automation, and cloud-native delivery.
           </motion.p>
         </motion.div>
 
@@ -130,7 +130,7 @@ const Contact = () => {
                 <div className="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></div>
                 <span className="font-semibold text-green-800 dark:text-green-300">Available for new opportunities</span>
               </div>
-              <p className="text-sm text-green-600 dark:text-green-400 mt-2">Currently open to Data Engineering and Full Stack development roles</p>
+              <p className="text-sm text-green-600 dark:text-green-400 mt-2">Currently open to data engineering, backend, and full-stack roles</p>
             </motion.div>
           </motion.div>
 

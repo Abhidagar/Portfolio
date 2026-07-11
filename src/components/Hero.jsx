@@ -7,9 +7,9 @@ import { Github, Linkedin, Mail, Download, ChevronDown } from 'lucide-react'
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0)
   const roles = [
-    "Associate Software Engineer",
-    "Full Stack Developer", ,
-    "Problem Solver"
+    "Data Engineer",
+    "REST APIs & Python",
+    "Scalable Systems Architect"
   ]
 
   useEffect(() => {
@@ -144,9 +144,8 @@ const Hero = () => {
           className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4"
           variants={itemVariants}
         >
-          Passionate about building Data analysis, Engineering, scalable infrastructure, automating deployments, 
-          and creating innovative solutions. Currently working at Nagarro, specializing 
-          in CI/CD pipelines, Kubernetes, and cloud technologies.
+          I design and build enterprise-scale ETL pipelines, REST APIs, and data quality frameworks.
+          At Nagarro, I work with Kedro, Snowflake, Redshift, Airflow, and cloud-native infrastructure on AWS.
         </motion.p>
 
         {/* CTA Buttons */}
