@@ -14,7 +14,7 @@ const Projects = () => {
       title: "Enterprise Data Quality Framework (Johnson & Johnson)",
       description: "Scalable data validation framework for processing highly unstructured enterprise datasets.",
       longDescription: "Designed and implemented a comprehensive Data Quality Framework for Johnson & Johnson using Kedro ETL pipelines to ingest data from SharePoint and Amazon Redshift into Amazon S3.",
-      image: "/api/placeholder/600/400",
+      image: "/johnson-johnson.png",
       technologies: ["Kedro", "Python", "SQL", "Amazon S3", "Redshift", "SharePoint"],
       category: "Data Engineering",
       period: "Mar 2026 - Jun 2026",
@@ -33,7 +33,7 @@ const Projects = () => {
       title: "End-to-End Kubernetes Deployment & Monitoring",
       description: "Production-ready CI/CD pipeline with full Kubernetes orchestration and observability.",
       longDescription: "Architected and deployed a complete production infrastructure with automated CI/CD pipelines, Kubernetes cluster management, and comprehensive monitoring using Prometheus and Grafana.",
-      image: "/api/placeholder/600/400",
+      image: "/k8s-cluster.png",
       technologies: ["Kubernetes", "Helm", "Prometheus", "Grafana", "Docker", "CI/CD", "Terraform"],
       category: "DevOps",
       period: "Feb 2025 - May 2025",
@@ -52,7 +52,7 @@ const Projects = () => {
       title: "JustEat",
       description: "Food ordering platform with separate customer and restaurant owner workflows.",
       longDescription: "A Flask-based food ordering website that supports order placement, cuisine and restaurant filtering, and personalized recommendations for users.",
-      image: "/api/placeholder/600/400",
+      image: "/justEat.png",
       technologies: ["Flask", "SQLite", "HTML", "CSS", "JavaScript", "Jinja Templating"],
       category: "Full Stack",
       period: "July 2025",
@@ -73,7 +73,7 @@ const Projects = () => {
       title: "Movie Recommender System",
       description: "Machine learning-based movie recommendation engine using cosine similarity.",
       longDescription: "An intelligent movie recommendation system that processes a dataset of 5000 movies, extracts features, and uses vector similarity for personalized suggestions.",
-      image: "/api/placeholder/600/400",
+      image: "/MRS.png",
       technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Cosine Similarity", "Data Processing"],
       category: "Machine Learning",
       period: "Aug 2023 - Sept 2023",
@@ -190,12 +190,15 @@ const Projects = () => {
                   <div className="grid lg:grid-cols-2 gap-0">
                     {/* Project Image */}
                     <div className="relative overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900">
-                      <div className="aspect-video flex items-center justify-center">
-                        <div className="text-6xl font-bold text-blue-500/20">
-                          {project.title.split(' ').map(word => word[0]).join('').slice(0, 3)}
-                        </div>
+                      <div className="aspect-video">
+                        <img
+                          src={project.image}
+                          alt={project.title}
+                          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          loading="lazy"
+                        />
                       </div>
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
 
                     {/* Project Details */}

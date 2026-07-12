@@ -8,7 +8,6 @@ const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0)
   const roles = [
     "Data Engineer",
-    "REST APIs & Python",
     "Scalable Systems Architect"
   ]
 
