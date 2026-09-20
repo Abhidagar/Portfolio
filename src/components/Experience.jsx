@@ -6,7 +6,7 @@ import { Building, Calendar, MapPin, ChevronRight } from 'lucide-react'
 const Experience = () => {
   const experiences = [
     {
-      title: "Associate Software Engineer",
+      title: "Associate Data Engineer",
       company: "Nagarro Software Private Limited",
       location: "Gurugram, Haryana",
       period: "Jan 2025 - Present",
@@ -23,7 +23,7 @@ const Experience = () => {
     },
 
     {
-      title: "Intern - Associate Software Engineer",
+      title: "Intern - Associate Data Engineer",
       company: "Nagarro Software Private Limited",
       location: "Gurugram, Haryana", 
       period: "Feb 2025 - May 2025",

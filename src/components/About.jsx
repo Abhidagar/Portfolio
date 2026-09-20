@@ -103,7 +103,7 @@ const About = () => {
               variants={itemVariants}
             >
               <p>
-                I work as an Associate Software Engineer at Nagarro, specializing in end-to-end ETL pipelines, data quality frameworks,
+                I work as an Associate Data Engineer at Nagarro, specializing in end-to-end ETL pipelines, data quality frameworks,
                 and backend automation solutions. My expertise spans Kedro, SQL optimization, Snowflake, and enterprise-scale data processing.
               </p>
               <p>
