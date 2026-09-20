@@ -155,7 +155,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 sm:px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
-            onClick={() => window.open('/Abhishek_resume-DE.pdf', '_blank')}
+            onClick={() => window.open('/Abhishek_Resume.pdf', '_blank')}
           >
             <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
             Download Resume
